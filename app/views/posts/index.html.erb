@@ -1,0 +1,13 @@
+<h1>Welcome to my Blog!</h1>
+<table>
+	<tr>
+		<th>Title</th>
+		<th>Content</th>
+	</tr>
+	<% @posts.each do |post| %>
+	<tr>
+		<td><%= post.title %></td>
+		<td><%= post.body %></td>
+	</tr>
+	<% end %>
+</table>
