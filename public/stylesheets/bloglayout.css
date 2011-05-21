@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/tokyo_light.jpg);
+	background-image: url(../images/blkpattern.png);
 	width: 750px;
 	margin: 0 auto;
 	margin-top: 0px;
@@ -19,20 +19,18 @@ dt {
 	clear: both;
 	padding: 1.5em;
 	background-color: #ffffff;
-	min-height: 500px;
 	height: auto;
-	height: 500px;
 	-moz-border-radius:		10px;
 	-webkit-border-radius:	10px;
 	border-radius:					10px;
 }
 
 #headerbox {
-	padding: 1em;
+	padding: .5em;
 	width: 200px;
 	min-height: 100px;
 	height: auto;
-	height: 100px;
+	height: 110px;
 	background-color: #ffffff;
 	-moz-border-radius:		10px;
 	-webkit-border-radius:	10px;
@@ -41,6 +39,15 @@ dt {
 	float: right;
 }
 
+#topnav {
+	float: right;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 /* ----- FOOTER ----- */
  
 #footer { 
