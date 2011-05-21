@@ -1,13 +1,17 @@
-<h1>Welcome to my Blog!</h1>
+<div id="posts_list">
 <table>
-	<tr>
-		<th>Title</th>
-		<th>Content</th>
-	</tr>
 	<% @posts.each do |post| %>
 	<tr>
-		<td><%= post.title %></td>
-		<td><%= post.body %></td>
+	<td class="list_body">
+		<dl>
+			<dt><%= link_to post.title, post %></dt>
+			<dd><%= post.created_at %></dd>
+			<dd><%= truncate(strip_tags(post.body),
+								:length => 520) %></dd>
+		</dl>
+	</td>
 	</tr>
 	<% end %>
 </table>
+</div>
+<%= link_to 'Create a New Post', new_post_path %>

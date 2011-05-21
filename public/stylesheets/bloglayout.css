@@ -27,7 +27,7 @@ dt {
 
 #headerbox {
 	padding: .5em;
-	width: 200px;
+	width: 140px;
 	min-height: 100px;
 	height: auto;
 	height: 110px;
@@ -47,6 +47,14 @@ ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+a:visited {
+	color: #0000FF;
+}
+
+#mediaicons {
+	text-align: center
 }
 /* ----- FOOTER ----- */
  
