@@ -1,0 +1,55 @@
+body {
+	background-image: url(../images/tokyo_light.jpg);
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 0px;
+		
+}
+
+dl, dt, dd {
+	margin: 0;
+}
+
+dt {
+	margin-top: 5px;
+	font-size: 1.5em;
+}
+
+#content {
+	clear: both;
+	padding: 1.5em;
+	background-color: #ffffff;
+	min-height: 500px;
+	height: auto;
+	height: 500px;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+	border-radius:					10px;
+}
+
+#headerbox {
+	padding: 1em;
+	width: 200px;
+	min-height: 100px;
+	height: auto;
+	height: 100px;
+	background-color: #ffffff;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+	border-radius:					10px;
+	margin: 10px 0;
+	float: right;
+}
+
+/* ----- FOOTER ----- */
+ 
+#footer { 
+width:750px;
+height:30px;
+background-color:#ffffff;
+margin-top:10px;
+margin-bottom: 20px;
+-moz-border-radius:		10px;
+-webkit-border-radius:	10px;
+border-radius:					10px;
+}
