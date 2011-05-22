@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  get "sessions/new"
+
 	resources :posts
   # The priority is based upon order of creation:
   # first created -> highest priority.

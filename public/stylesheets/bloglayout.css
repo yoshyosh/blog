@@ -49,22 +49,17 @@ ul{
 	padding: 0;
 }
 
-a:visited {
-	color: #0000FF;
+a, a:visited, a:active {
+  color:#137BC0;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#6CB9FF;
+  text-decoration:underline;
 }
 
 #mediaicons {
 	text-align: center
 }
-/* ----- FOOTER ----- */
- 
-#footer { 
-width:750px;
-height:30px;
-background-color:#ffffff;
-margin-top:10px;
-margin-bottom: 20px;
--moz-border-radius:		10px;
--webkit-border-radius:	10px;
-border-radius:					10px;
-}
+
