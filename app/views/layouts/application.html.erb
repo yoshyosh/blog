@@ -20,9 +20,9 @@
 			</ul>
 		</nav>
 		<div id="mediaicons">
-			<%= link_to image_tag("facebook.png", :alt => "facebook"), 'www.facebook.com/yoshyosh' %>
-			<%= link_to image_tag("twitter.png", :alt => "twitter"), 'www.twitter.com/Anderson760' %>
-			<%= link_to image_tag("github.png", :alt => "github"), '#' %>
+			<%= link_to image_tag("facebook.png", :alt => "facebook"), "http://www.facebook.com/yoshyosh" %>
+			<%= link_to image_tag("twitter.png", :alt => "twitter"), 'http://www.twitter.com/Anderson760' %>
+			<%= link_to image_tag("github.png", :alt => "github"), 'http://www.github.com/yoshyosh' %>
 			<%= link_to image_tag("skype.png", :alt => "skype"), 'yoshyosh18' %>
 			<%= link_to image_tag("linkedin.png", :alt => "linkedin") %>
 		</div>
@@ -30,6 +30,9 @@
 	</header>
 		<div id="content">
 		<section>
+		<% flash.each do |key, value| %>
+			<div class="<%= key %>"><%= value %></div>
+		<% end %>
 			<%= yield %>
 		</section>
 		</div>

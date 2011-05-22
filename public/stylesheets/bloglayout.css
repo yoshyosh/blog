@@ -23,6 +23,7 @@ dt {
 	-moz-border-radius:		10px;
 	-webkit-border-radius:	10px;
 	border-radius:					10px;
+	margin-bottom: 50px;
 }
 
 #headerbox {
@@ -61,5 +62,19 @@ a:hover {
 
 #mediaicons {
 	text-align: center
+}
+
+/* Flash notice */
+
+.error {
+	padding: 1em;
+	background-color: #FF3030;
+	border: 1px solid #8E2323;
+}
+
+.notice {
+	padding: .5em;
+	background-color #02342f;
+	border: 1px solid #129391;
 }
 

@@ -15,4 +15,6 @@
 </table>
 <%= will_paginate %>
 </div>
+<% if admin? %>
 <%= link_to 'Create a New Post', new_post_path %>
+<% end %>
